@@ -1,0 +1,37 @@
+.skills {
+    margin: 110px;
+} 
+
+.skills__title {
+    text-align: center;   
+     margin: 2% 0;
+
+}
+
+.skills__line {
+    display: flex;
+    gap: 2%;
+    flex-wrap: wrap;
+    justify-content: space-between;;
+}
+
+.skills__box {
+    height: 200px;
+    width: 200px;
+    border-radius: 10%;
+    background-color: white;
+    display: flex;
+    margin: 10px;
+    justify-content: left;
+    align-items: end;
+    box-shadow: 0 0 10px #ccc;
+}
+
+.skills__img img {
+    width: 25%;
+    filter: brightness(0) saturate(100%) invert(54%) sepia(50%) saturate(389%) hue-rotate(70deg) brightness(100%) contrast(91%);
+}
+
+.skills__title{
+    font-size: 180%;
+}
